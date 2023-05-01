@@ -15,15 +15,28 @@ class MainActivity : AppCompatActivity() {
 
         list = findViewById(R.id.list)
 
-        stations.add("Пролетарская");
-        stations.add("Китай-город");
-        stations.add("Кузнецкий мост");
-        stations.add("Смоленская");
-        stations.add("Киевская");
-        stations.add("Таганская");
-        stations.add("Студенческая");
-        stations.add("Римская");
-        stations.add("Комсомольская");
-        stations.add("Рижская");
+        stations.add("Пролетарская")
+        stations.add("Китай-город")
+        stations.add("Кузнецкий мост")
+        stations.add("Смоленская")
+        stations.add("Киевская")
+        stations.add("Таганская")
+        stations.add("Студенческая")
+        stations.add("Римская")
+        stations.add("Комсомольская")
+        stations.add("Рижская")
+        stations.add("Пролетарская")
+        stations.add("Китай-город")
+        stations.add("Кузнецкий мост")
+        stations.add("Смоленская")
+        stations.add("Киевская")
+        stations.add("Таганская")
+        stations.add("Студенческая")
+        stations.add("Римская")
+        stations.add("Комсомольская")
+        stations.add("Рижская")
+
+        val adapter = MetroAdapter(this, R.layout.item, stations)
+        list.adapter = adapter
     }
 }
